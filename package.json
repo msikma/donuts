@@ -1,0 +1,22 @@
+{
+  "name": "donuts",
+  "version": "1.0.0",
+  "description": "Nanoscopic task runner framework for Javascript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msikma/donuts.git"
+  },
+  "keywords": [
+    "task runner"
+  ],
+  "author": "Michiel Sikma <info@michielsikma.com> (http://michielsikma.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msikma/donuts/issues"
+  },
+  "homepage": "https://github.com/msikma/donuts",
+  "devDependencies": {},
+  "dependencies": {
+    "babel": "^5.8.3"
+  }
+}
