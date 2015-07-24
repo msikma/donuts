@@ -36,7 +36,7 @@ Let's say you want to write a build script that can copy over some files
 and start a simple Express server to host them. Make a new file called
 `build.js` (or whatever name you prefer) and add the following:
 
-```
+```javascript
 #!/usr/bin/env node
 var Donuts = require('donuts');
 
@@ -75,9 +75,9 @@ buildScript.run();
 ```
 
 This script can then be run like any standard Unix script, responding
-to `--help` to display its capabilities.
+to `--help` to display its capabilities. (You may need to run
+`chmod +x ./build.js` to mark it as executable.)
 
-    $ chmod +x ./build.js    # do this once to make it executable
     $ ./build.js --help
 
 This shows the following output:
